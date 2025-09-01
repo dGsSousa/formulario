@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Formulário</title>
 </head>
 <body>
-    <main>
+    <main id="form_container">
 
-        <div>
-            <h1>Criar Conta</h1>
-            <button>
-                <i></i>
+        <div id="form_header">
+            <h1 id="form_title">Criar Conta</h1>
+            <button class="btn-default">
+                <i class="fa-solid fa-right-to-bracket"></i>
             </button>
         </div>
 
@@ -22,7 +24,7 @@
                     <label for="name">Primeiro Nome</label>
                     <div>
                         <input type="text" name="name" id="name" class="form-control" placeholder="Nome">
-                        <i></i>
+                        <i class="fa-regular fa-user"></i>
                     </div>
                 </div>
 
@@ -30,7 +32,7 @@
                     <label for="last_name">Último Nome</label>
                     <div>
                         <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Sobrenome">
-                        <i></i>
+                        <i class="fa-regular fa-user"></i>
                     </div>
                 </div>
 
@@ -45,23 +47,23 @@
                     <label for="email">E-mail</label>
                     <div>
                         <input type="email" name="email" id="email" class="form-control" placeholder="Email">
-                        <i></i>
+                        <i class="fa-regular fa-envelope"></i>
                     </div>
                 </div>
 
                 <div class="input-box">
-                    <label for="senha">Senha</label>
+                    <label for="password">Senha</label>
                     <div>
                         <input type="password" name="password" id="password" class="form-control">
-                        <i></i>
+                        <i class="fa-regular fa-eye-slash password-icon"></i>
                     </div>
                 </div>
 
                 <div class="input-box">
-                    <label for="name">Confirmar Senha</label>
+                    <label for="confirm_password">Confirmar Senha</label>
                     <div>
-                        <input type="password" name="name" id="name" class="form-control">
-                        <i></i>
+                        <input type="password" name="confirm_password" id="confirm_password" class="form-control">
+                        <i class="fa-regular fa-eye-slash password-icon"></i>
                     </div>
                 </div>
 
